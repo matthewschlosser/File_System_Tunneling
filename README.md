@@ -6,6 +6,7 @@ Python command line tool for detecting file system tunneling in NTFS file system
 Requirements:
 
 The Sleuth Kit (TSK) - https://www.sleuthkit.org/sleuthkit/download.php
+
 Triforce - https://www.gettriforce.com/product/anjp-free/
 
 
@@ -41,7 +42,7 @@ Instructions for use:
 4. Using the database that Triforce creates, the tunneling_lite.py and tunneling_full.py tools can be used with the database
   
   
-Example use
+Example use:
 
 $ python tunneling_lite.py \<database file name\>
   
