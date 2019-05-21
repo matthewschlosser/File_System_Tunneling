@@ -124,7 +124,7 @@ def main(argv):
 
 	for fil in ren_del_files:
 		dat2 = cur.execute("SELECT * FROM usn_event_ref WHERE ure_fullname = '"+fil+"' AND usne_event_id='Renames_Moves'").fetchall() 
-		dat3 = cur.execute("SELECT * FROM usn_event_ref WHERE ure_fullname = '"+fil+"' AND usne_event_id='Deltetions'").fetchall() 
+		dat3 = cur.execute("SELECT * FROM usn_event_ref WHERE ure_fullname = '"+fil+"' AND usne_event_id='Deletions'").fetchall() 
 		for row2 in dat2:
 			date1 = row2[18]
 			for row3 in dat3:
